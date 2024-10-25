@@ -10,6 +10,7 @@ class Carro{
         $this->marca = $marca;
         $this->modelo = $modelo;
         $this->ano = $ano;
+        $this->velocidadeAtual = 0;
     }
 
     public function acelerar($aumentarVelocidade){
