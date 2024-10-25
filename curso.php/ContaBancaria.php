@@ -27,7 +27,7 @@ class ContaBancaria{
     }
     }
     public function exibirSaldo(){
-        print "Saldo: " . $this->saldo;
+        print "Saldo: " . number_format($this->saldo, 2, ',', '.');
     }
 
 }

@@ -15,7 +15,7 @@ class Funcionario{
     }
 
     public function exibirSalario(){
-        echo $this->salario;
+        echo "Salário atualizado: R$ " . number_format($this->salario, 2, ',', '.');
     }
  
 }
